@@ -6,9 +6,9 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @MapperScan(basePackages = "top.joylife.postoffice.dao.mapper")
-public class PostofficeApplication {
+public class PostOfficeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PostofficeApplication.class, args);
+        SpringApplication.run(PostOfficeApplication.class, args);
     }
 }
