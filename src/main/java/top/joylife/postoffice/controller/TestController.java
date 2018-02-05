@@ -32,7 +32,7 @@ public class TestController {
         List<Courier> couriers = courierMapper.selectAll();
         Date zero = new Date(0);
         logger.info("时间戳：{}",String.valueOf(zero.getTime()));
-        logger.info(String.valueOf(couriers.get(0).getDateDelete().getTime()));
+        logger.info(String.valueOf(couriers.get(0).getDateDelete()));
         return JSON.toJSONString(couriers);
     }
 
